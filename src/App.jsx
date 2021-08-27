@@ -30,9 +30,13 @@ const App = () => {
     );
   };
 
+  const toggleAddPanel = () => {
+    setShowAddTask(!showAddTask);
+  };
+
   return (
     <div className="container">
-      <Header />
+      <Header onAdd={toggleAddPanel} />
       {showAddTask && <AddTask onAdd={addTask} />}
       <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
     </div>

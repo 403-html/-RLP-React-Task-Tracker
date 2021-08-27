@@ -1,10 +1,14 @@
 import Button from "./Button";
 
-function Header({ title = "React Task Tracker", onAdd }) {
+function Header({ title = "React Task Tracker", onAdd, showAdd }) {
   return (
     <header className="header">
       <h1>{title}</h1>
-      <Button className="btn" text="Add" onClick={() => onAdd()} />
+      <Button
+        className={`btn ${showAdd ? "btn-hide" : "btn-show"}`}
+        text={showAdd ? "Hide" : "Add"}
+        onClick={() => onAdd()}
+      />
     </header>
   );
 }

@@ -54,6 +54,14 @@ body {
   width: 100%;
 }
 
+.btn-hide {
+  background: #ff2442;
+}
+
+.btn-show {
+  background: #3db2ff;
+}
+
 .task {
   background: #f4f4f4;
   margin: 5px;

@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# React Task Tracker
+## URL
+https://www.youtube.com/watch?v=w7ejDZ8SWv8&list=WL
+## Where I have finished so far
+1:15/1:48
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
